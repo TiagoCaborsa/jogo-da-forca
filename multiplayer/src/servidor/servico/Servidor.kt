@@ -6,12 +6,14 @@ import java.net.ServerSocket
 
 object Servidor {
 
+    private val servidorConfig = ServidorConfig()
+
     @JvmStatic
     fun iniciarServidor() {
         try {
 
-            val servidor = ServerSocket()
-            val servidorConfig = ServidorConfig(ip = servidor.localSocketAddress.toString(), porta = servidor.localPort)
+            val servidor = ServerSocket(servidorConfig.porta)
+//            val servidorConfig = ServidorConfig(ip = servidor.localSocketAddress.toString(), porta = servidor.localPort)
 
             println("Servidor iniciado com sucesso na porta: ${servidorConfig.porta}")
 
@@ -21,8 +23,13 @@ object Servidor {
 
         } catch (e: Exception) {
             System.err.println("Erro ao iniciar servidor: ${e.message}")
+            e.printStackTrace()
         }
 
     }
-
 }
+
+fun main(args: Array<String>) {
+    Servidor.iniciarServidor()
+}
+

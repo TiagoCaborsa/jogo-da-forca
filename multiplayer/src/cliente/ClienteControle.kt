@@ -30,3 +30,7 @@ class ClienteControle(private val servidorConfig: ServidorConfig) {
     }
 
 }
+
+fun main(args: Array<String>) {
+    ClienteControle(ServidorConfig()).iniciarCliente()
+}

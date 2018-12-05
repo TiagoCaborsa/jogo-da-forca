@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8d71bebd-7d30-4ce4-ad0c-9f1c9512cb3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/multiplayer/servidor/ServidorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/multiplayer/servidor/ServidorConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/multiplayer/servidor/controle/ServidorControle$thread$run$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/multiplayer/servidor/controle/ServidorControle$thread$run$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/multiplayer/servidor/controle/ServidorControle.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/multiplayer/servidor/controle/ServidorControle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/multiplayer/servidor/controle/ServidorControleKt$sam$Runnable$240557d7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/multiplayer/META-INF/multiplayer.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/multiplayer/META-INF/multiplayer.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/multiplayer/cliente/ClienteControle.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/multiplayer/cliente/ClienteControle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/production/multiplayer/servidor/servico/Servidor.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/multiplayer/servidor/servico/Servidor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/jogodaforca/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/jogodaforca/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiplayer/src/cliente/ClienteControle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/multiplayer/src/cliente/ClienteControle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiplayer/src/servidor/servico/Servidor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/multiplayer/src/servidor/servico/Servidor.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -20,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/multiplayer/src/cliente/ClienteControle.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="131">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#17#123#0" expanded="true" />
               </folding>
@@ -32,15 +31,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/jogodaforca/main/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiplayer/src/servidor/servico/Servidor.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-              </folding>
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/jogodaforca/aluno/view/AlunoView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/jogodaforca/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -48,17 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiplayer/src/servidor/controle/ServidorControle.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiplayer/src/servidor/servico/Servidor.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="119">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -79,8 +83,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/multiplayer/src/cliente/ClienteController.kt" />
-        <option value="$PROJECT_DIR$/multiplayer/src/cliente/ClienteControle.kt" />
         <option value="$PROJECT_DIR$/src/br/com/jogodaforca/main/Main.java" />
+        <option value="$PROJECT_DIR$/multiplayer/src/cliente/ClienteControle.kt" />
+        <option value="$PROJECT_DIR$/multiplayer/src/servidor/servico/Servidor.kt" />
       </list>
     </option>
   </component>
@@ -107,6 +112,86 @@
               <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
               <item name="multiplayer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cliente" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servidor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servidor" type="462c0819:PsiDirectoryNode" />
+              <item name="controle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servidor" type="462c0819:PsiDirectoryNode" />
+              <item name="servico" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jogodaforca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jogodaforca" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogo-da-forca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogo-da-forca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jogodaforca" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.cliente.ClienteControleKt">
     <configuration name="JogoMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.com.jogodaforca.main.Main" />
       <module name="JogoDaForca" />
@@ -139,6 +224,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cliente.ClienteControleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="multiplayer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="cliente.ClienteControleKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="servidor.servico.ServidorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="multiplayer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="servidor.servico.ServidorKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JogoMain" />
+      <item itemvalue="Kotlin.servidor.servico.ServidorKt" />
+      <item itemvalue="Kotlin.cliente.ClienteControleKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.cliente.ClienteControleKt" />
+        <item itemvalue="Kotlin.servidor.servico.ServidorKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -172,22 +294,22 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.19364598" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.19364598" />
       <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.24962178" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2689211" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31561998" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.15619968" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3558776" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3800322" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -201,45 +323,88 @@
     <MESSAGE value="Adds arquivo de configuração do git." />
     <option name="LAST_COMMIT_MESSAGE" value="Adds arquivo de configuração do git." />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/multiplayer/src/servidor/servico/Servidor.kt</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/multiplayer/src/servidor/ServidorConfig.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiplayer/src/servidor/servico/Servidor.kt">
+    <entry file="file://$PROJECT_DIR$/src/br/com/jogodaforca/view/MenuPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-231">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/jogodaforca/vo/AlunoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/jogodaforca/aluno/view/AlunoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/jogodaforca/util/ValidaEntrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multiplayer/src/servidor/controle/ServidorControle.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiplayer/src/cliente/ClienteControle.kt">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#17#123#0" expanded="true" />
-          </folding>
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/jogodaforca/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiplayer/src/servidor/servico/Servidor.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiplayer/src/cliente/ClienteControle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#17#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
