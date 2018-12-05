@@ -26,7 +26,10 @@ public class AlunoView extends JPanel {
 	private JTextField nomeField;
 	private JTextField serieField;
 	private JTextField idadeField;
+	private JTextField ipField;
+	private JTextField portaField;
 	private JButton botaoComecar;
+	private JButton botaoCriar;
 
 	public AlunoView() {
 
@@ -71,6 +74,16 @@ public class AlunoView extends JPanel {
 		panelCadastro.add(pontosLabel);
 		panelCadastro.add(idadeField);
 
+		JLabel ipLabel = new JLabel("IP:");
+		ipField = new JTextField(15);
+		panelCadastro.add(ipLabel);
+		panelCadastro.add(ipField);
+
+		JLabel portaLabel = new JLabel("Porta:");
+		portaField = new JTextField(15);
+		panelCadastro.add(portaLabel);
+		panelCadastro.add(portaField);
+
 		add(panelCadastro, BorderLayout.CENTER);
 	}
 
@@ -79,7 +92,11 @@ public class AlunoView extends JPanel {
 		JPanel panelBotoes = new JPanel();
 		panelBotoes.setLayout(new FlowLayout());
 
-		botaoComecar = new JButton("Enviar");
+		botaoComecar = new JButton("Criar server");
+		botaoComecar.addActionListener(listener);
+		panelBotoes.add(botaoCriar);
+
+		botaoComecar = new JButton("Entrar em server");
 		botaoComecar.addActionListener(listener);
 		panelBotoes.add(botaoComecar);
 
@@ -97,10 +114,14 @@ public class AlunoView extends JPanel {
 				String nome = " ";
 				String serie = " ";
 				String idade = " ";
+				String ip = " ";
+				String porta = " ";
 
 				nome = nomeField.getText().trim();
 				serie = serieField.getText().trim();
 				idade = idadeField.getText().trim();
+				ip = ipField.getText().trim();
+				porta = portaField.getText().trim();
 
 				validaEntrada = new ValidaEntrada(nome, serie, idade);
 				validaEntradaCampo = validaEntrada.verificaEntradaAluno(validaEntrada);
@@ -120,6 +141,8 @@ public class AlunoView extends JPanel {
 					nomeField.setText(" ");
 					serieField.setText(" ");
 					idadeField.setText(" ");
+					ipField.setText(" ");
+					portaField.setText(" ");
 				}
 			}
 		}

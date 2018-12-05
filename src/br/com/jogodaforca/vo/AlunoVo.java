@@ -6,6 +6,8 @@ public class AlunoVo {
 	private String nome;
 	private Integer serie;
 	private Integer idade;
+	private Integer ip;
+	private Integer porta;
 
 	public Long getCodigo() {
 		return codigo;
@@ -39,9 +41,25 @@ public class AlunoVo {
 		this.idade = idade;
 	}
 
+	public Integer getIp() {
+		return ip;
+	}
+
+	public void setIp(Integer ip) {
+		this.ip = ip;
+	}
+
+	public Integer getPorta() {
+		return porta;
+	}
+
+	public void setPorta(Integer porta) {
+		this.porta = porta;
+	}
+
 	@Override
 	public String toString() {
-		return codigo + ":" + nome + ":" + serie + ":" + idade + "\r\n";
+		return codigo + ":" + nome + ":" + serie + ":" + idade + ":" + ip + ":" + porta + "\r\n";
 	}
 
 }
