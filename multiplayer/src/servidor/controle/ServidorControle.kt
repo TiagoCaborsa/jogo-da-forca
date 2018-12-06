@@ -5,7 +5,7 @@ import java.io.ObjectInputStream
 import java.io.ObjectOutputStream
 import java.net.Socket
 
-class ServidorControle(private val cliente: Socket) {
+class ServidorControle(private val socket: Socket) {
 
     private var inputStream: ObjectInputStream? = null
     private var outputStream: ObjectOutputStream? = null
@@ -20,8 +20,8 @@ class ServidorControle(private val cliente: Socket) {
     }
 
     private fun popularStreams() {
-        inputStream = ObjectInputStream(cliente.getInputStream())
-        outputStream = ObjectOutputStream(cliente.getOutputStream())
+        inputStream = ObjectInputStream(socket.getInputStream())
+        outputStream = ObjectOutputStream(socket.getOutputStream())
     }
 
     private fun thread() {
@@ -32,7 +32,10 @@ class ServidorControle(private val cliente: Socket) {
 
                 while (true)
                     try {
-                        println(inputStream?.readObject().toString())
+                        val message = inputStream?.readObject().toString()
+                        println(message)
+                        outputStream?.writeObject(message)
+                        outputStream?.flush()
 
                     } catch (e: ClassNotFoundException) {
                         System.err.println("Erro ao pegar informacoes de entrada: ${e.message}")

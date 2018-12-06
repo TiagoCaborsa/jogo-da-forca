@@ -1,6 +1,7 @@
 package cliente
 
 import servidor.ServidorConfig
+import java.io.ObjectInputStream
 import java.io.ObjectOutputStream
 import java.net.Socket
 import java.util.*
@@ -11,8 +12,10 @@ class ClienteControle(private val servidorConfig: ServidorConfig) {
         try {
 
             val socket = Socket(servidorConfig.ip, servidorConfig.porta)
-            println("Conectado ao servidor.")
             val outputStream = ObjectOutputStream(socket.getOutputStream())
+            val inputStream = ObjectInputStream(socket.getInputStream())
+
+            println("Conectado ao servidor.")
 
             val scanner = Scanner(System.`in`)
 
@@ -20,6 +23,8 @@ class ClienteControle(private val servidorConfig: ServidorConfig) {
                 println("Digite a msg!")
                 outputStream.writeObject(scanner.nextLine())
                 outputStream.flush()
+                val message = inputStream.readObject().toString()
+                println(message)
             }
 
         } catch (e: Exception) {
